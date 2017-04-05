@@ -72,5 +72,12 @@ $(".site-search").click(function(){
     
 });
 
+$('#friends').click(function() {
+  $('#page').toggle();
+  $('#friend').toggle();
+  $('#page_1').toggle();
+  $('#friend_1').toggle();
+});
+
 function initMap() { var mapDiv = document.getElementById('map'); var map = new google.maps.Map(mapDiv, { center: {lat: 29.885454, lng: -97.940567}, zoom: 15 }); }
 
