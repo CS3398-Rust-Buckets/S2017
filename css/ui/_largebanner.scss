@@ -1,0 +1,22 @@
+.large-banner {
+	@extend %group;
+	background: $bluish;
+	left: 0;
+	padding: 56px 10px 0px;
+	position: relative;
+	width: 100%;
+
+	.wrapper {
+		@extend %group;
+		width: 100%;
+		margin: 5px 20px;
+		position: relative;
+
+	    h2 {
+	    	font: italic toem(28px) $lato;
+	    	color: $whitish;
+	    	text-align: left;
+	    }
+	}
+}
+

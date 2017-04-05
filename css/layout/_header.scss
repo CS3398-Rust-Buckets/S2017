@@ -1,0 +1,46 @@
+header {
+	background: $orange;
+	left: 0;
+	min-height: 65px;
+	padding: 12px 10px 10px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+    
+    .wrapper {
+	    @extend %group;
+	    max-width: 100%;
+	    position: relative;
+
+	    h1 {
+	    	font: bold toem(40px) $lato;
+	    	color: $whitish;
+	    	text-align: center;
+	    }
+    }
+   
+    @include breakpoint(tablet) {
+	    padding: 15px 20px;
+	    
+		.brand {
+			font-size: toem(45px);
+		}
+		
+		.menu-btn {
+		   font-size: toem(50px);
+		   
+		   &.active {
+				position: fixed;
+				right: 20px;
+			}
+		}
+	}
+    
+    @include breakpoint(desktop) {
+       .icon-menu {
+	      display: none;	
+       }
+        
+    }
+}

@@ -1,0 +1,36 @@
+.contact {
+	@extend %group;
+	background: $orange;
+	font: toem(16px) $lato;
+	max-width: 960px;
+	position: relative;
+	text-align: center;
+	.wrapper {
+		@extend %group;
+		font: toem(16px) $lato;
+		padding: 10px;
+		position: relative;
+		text-align: center;
+		.social {
+			color: $txstMaroon;
+			display: block;
+			margin: 38px 0 26px;
+		}
+		ul {
+			li {
+				display: inline-block;
+				font-size: toem(24px);
+				margin-bottom: 50px;
+				text-decoration: none;
+				vertical-align: middle;
+				width: 24%;
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+		.icon-twitter {
+				font-size: toem(22px);
+		}
+	}
+}
