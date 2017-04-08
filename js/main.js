@@ -79,5 +79,12 @@ $('#friends').click(function() {
   $('#friend_1').toggle();
 });
 
+$('#events').click(function() {
+  $('#page').toggle();
+  $('#event').toggle();
+  $('#page_1').toggle();
+  $('#event_1').toggle();
+});
+
 function initMap() { var mapDiv = document.getElementById('map'); var map = new google.maps.Map(mapDiv, { center: {lat: 29.885454, lng: -97.940567}, zoom: 15 }); }
 
