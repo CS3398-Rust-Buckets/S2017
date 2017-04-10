@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?432xji');
+  src:  url('fonts/icomoon.eot?432xji#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?432xji') format('truetype'),
+    url('fonts/icomoon.woff?432xji') format('woff'),
+    url('fonts/icomoon.svg?432xji#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-list-numbered:before {
+  content: "\e9b9";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-finder:before {
+  content: "\eabf";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+
+
+.icon-dog:before {
+    content: "\e908";
+}
+.icon-quote:before {
+    content: "\e900";
+}
+.icon-linkedin:before {
+    content: "\e9b9";
+    color: $bluish;
+}
+.icon-facebook:before {
+    content: "\ea0a";
+    color: $bluish;
+}
+.icon-google:before {
+    content: "\e972";
+    color: $bluish;
+}
+.icon-twitter:before {
+    content: "\e953";
+    color: $bluish;
+}
+.icon-menu:before {
+    content: "\e905";
+}
+.icon-kooba:before {
+    content: "\e906";
+}
+.icon-wolfgang:before {
+    content: "\e907";
+}
+.icon-location:before {
+    content: "\e96b";
+}
+.icon-location2:before {
+    content: "\e948";
+}
+
