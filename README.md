@@ -28,7 +28,7 @@ Stretch Goals:
 Create complimentary mobile application 
 
 ## Master Branch:
-Reflects code for web application
+Reflects code updated at end of sprint for web application and other pertinent files to application
 
 ## Develop Branch:
-Reflects pertinent files to applciation
+Reflects code continuously updated throughout the semester for web application and other pertinent files to application
