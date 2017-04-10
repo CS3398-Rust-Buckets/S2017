@@ -1,0 +1,7 @@
+Send Message - RubyRuby
+Found at: https://www.twilio.com/blog/2014/04/add-sms-to-your-web-app-in-4-lines-of-code.html
+
+require 'twilio-ruby'
+@client = Twilio::REST::Client.new '{{ sid }}', '{{ auth_token }}'
+message = @client.account.messages.create(:body => "I’m tired of having my arms cut off by snow-blowers. Please help Mr. hmmm… I forgot your name.", :to => "+16365553226", :from => "+15558675309")
+puts message.to
