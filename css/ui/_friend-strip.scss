@@ -84,9 +84,8 @@
 	}
 	@include breakpoint(tablet) {
 		max-width: 100%;
-		min-height: 383px;
+		min-height: 800px;
 		.wrapper {
-			padding: 45px 20px 50px;
 			max-width: 100%;
 			h3 {
 				margin: 4px 0 40px;
@@ -94,17 +93,21 @@
 			
 			.column {
 				float: left;
-				max-width: 50%;
+				width: 100%;
 				padding:0 10px;
-				
 				.blog-content{
+					font: toem(35px) $lato;
 					margin-right: 0;
 					.info {
 						padding-bottom: 22px;
 					}
 				}
+				.icon-google {
+					font: 600 28px 'wolfgang';
+				}
 				.section-image {
 					height: 191px;
+					width: 180px;
 				}
 				h3 {
 					margin: 15px 12px 28px 20px;
