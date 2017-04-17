@@ -60,4 +60,26 @@
 				color: $black;
 		}
 	}
+	@include breakpoint(tablet) {
+		max-width: 100%;
+		min-height: 800px;
+	    .wrapper {
+			max-width: 100%;
+			padding: 20px 10px;
+
+			input[type=text] {
+				font: toem(28.84px) $lato;
+				margin-bottom:16px;
+				padding: 12px 10px 13px;
+				width: 100%;
+			}
+			input[type=desc] {
+				font: toem(28.84px) $lato;
+				height: 200px;
+				margin-bottom:16px;
+				padding-bottom: 160px;
+
+			}
+		}
+	}
 }		
