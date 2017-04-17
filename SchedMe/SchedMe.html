@@ -16,7 +16,10 @@
         		addEvent: {
             		text: '+ Event',
             		click: function() {
-                		alert('This button\'s functionality will pop up a Form that will be filled with pertinent event information!');
+                		prompt('Enter Event', 'Event Name'),
+						prompt('Enter Event Time', 'Time'),
+						prompt('Event Group', 'Group Name'),
+						prompt('Enter Event Description', 'Description');
 					}
         		},
 				addUser: {
