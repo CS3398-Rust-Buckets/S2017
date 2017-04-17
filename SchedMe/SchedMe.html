@@ -25,7 +25,9 @@
 				addUser: {
             		text: '+ User',
             		click: function() {
-                		alert('This button\'s functionality will pop up a Form that will be filled with pertinent user information!');
+                		prompt('Enter User Name', 'Name'),
+						prompt('Enter User Password', 'Minimum 6 Characters'),
+						prompt('Enter e-mail address', 'john.doe@gmail.com');
 					}
         		}	
     		},
