@@ -20,7 +20,11 @@ Built in texting/messaging platform
 ## Platform: 
 Web Application  
  
+<<<<<<< HEAD
 Languages: HTML, JavaScript, CSS, Python 
+=======
+Languages: HTML, CSS, JavaScript, Python 
+>>>>>>> origin/develop
  
 Team Roles: UI, Front End (HTML, CSS,JavaScript), Backend(Python) 
  
