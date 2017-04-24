@@ -20,9 +20,9 @@ Built in texting/messaging platform
 ## Platform: 
 Web Application  
  
-Languages: HTML, JAVA, CSS, Python 
+Languages: HTML, CSS, JavaScript, Python 
  
-Team Roles: UI, Front End (HTML, CSS,JAVA), Backend(Python) 
+Team Roles: UI, Front End (HTML, CSS,JavaScript), Backend(Python) 
  
 Stretch Goals: 
 Create complimentary mobile application 
