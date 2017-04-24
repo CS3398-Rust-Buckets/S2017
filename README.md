@@ -14,9 +14,6 @@ Not as convenient as mobile application
 Users need an active internet connection 
 Scaling the project to be able to support larger organization 
  
-## Features: 
-Built in texting/messaging platform 
- 
 ## Platform: 
 Web Application  
  

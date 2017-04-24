@@ -2,7 +2,7 @@
 	@extend %group;
 	background: $orange;
 	font: toem(16px) $lato;
-	max-width: 960px;
+	max-width: 100%;
 	position: relative;
 	text-align: center;
 	.wrapper {
@@ -11,6 +11,7 @@
 		padding: 10px;
 		position: relative;
 		text-align: center;
+		width: 100%;
 		.social {
 			color: $txstMaroon;
 			display: block;
