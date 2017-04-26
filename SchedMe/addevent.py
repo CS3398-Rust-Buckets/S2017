@@ -8,7 +8,7 @@ group = form.getvalue("Group Name")
 descrip = form.getvalue("Description...")
 location = form.getvalue("Event Location")
 
-events = open('events.txt', 'w')
+events = open('\events.txt', 'w')
 
 events.write(name)
 events.write('\n')

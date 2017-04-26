@@ -8,7 +8,7 @@ email = form.getvalue('your.email@here.com')
 password = form.getvalue('password')
 repass = form.getvalue('re-enter password')
 
-users = open('users.txt', 'w')
+users = open('\users.txt', 'w')
 
 users.write(firstname)
 users.write('\n')
